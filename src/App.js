@@ -27,16 +27,12 @@ function App() {
         <NAVBAR />
         JS
         <Switch>
-          <Route exact path="/REACTJS" component={HOMEPAGE} />
-          <Route exact path="/REACTJS/contact" component={CONTACT} />
-          <Route exact path="/REACTJS/allprojects" component={ALLPROJECTS} />
-          <Route exact path="/REACTJS/addprojects" component={ADD_PROJECTS} />
-          <Route
-            exact
-            path="/REACTJS/write"
-            component={WRITE_A_RECOMMENDATION}
-          />
-          <Route exact path="/REACTJS/project/:num" component={PROJECTPAGE} />
+          <Route exact path="/" component={HOMEPAGE} />
+          <Route exact path="/contact" component={CONTACT} />
+          <Route exact path="/allprojects" component={ALLPROJECTS} />
+          <Route exact path="/addprojects" component={ADD_PROJECTS} />
+          <Route exact path="/write" component={WRITE_A_RECOMMENDATION} />
+          <Route exact path="/project/:num" component={PROJECTPAGE} />
         </Switch>
         <FOOTER />
       </BrowserRouter>
