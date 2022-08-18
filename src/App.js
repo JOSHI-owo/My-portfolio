@@ -32,7 +32,7 @@ function App() {
           <Route exact path="/allprojects" component={ALLPROJECTS} />
           <Route exact path="/addprojects" component={ADD_PROJECTS} />
           <Route exact path="/write" component={WRITE_A_RECOMMENDATION} />
-          <Route exact path="/project/:num" component={PROJECTPAGE} />
+          <Route exact path="/project/:id" component={PROJECTPAGE} />
         </Switch>
         <FOOTER />
       </BrowserRouter>
